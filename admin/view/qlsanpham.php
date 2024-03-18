@@ -133,7 +133,6 @@ h2 {
             $qty = $_POST['qty'];
             $id_type = $_POST['id_type'];
 
-            $target_dir = "ANH/";
             $target_file = $target_dir . basename($_FILES["image"]["name"]);
 
             // Upload file hình ảnh
